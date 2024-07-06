@@ -1,5 +1,6 @@
 import './App.css'
 import Hello from './component/Hello'
+import Timer from './component/Timer'
 
 function App() {
   const user = {
@@ -10,6 +11,7 @@ function App() {
   return (
     <div className="App">
       <Hello user={user} />
+      <Timer />
     </div>
   )
 }
