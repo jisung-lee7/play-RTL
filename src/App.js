@@ -1,5 +1,6 @@
 import './App.css'
 import Hello from './component/Hello'
+import MyPage from './component/MyPage'
 import Timer from './component/Timer'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <div className="App">
       <Hello user={user} />
       <Timer />
+      <MyPage />
     </div>
   )
 }
